@@ -2,6 +2,8 @@
 
 A simple way to show a control when users hover over another one. 
 
+Hint: For tooltips you can also try the [Tooltip](https://github.com/stadium-software/tooltips) or the [Simple Tooltips](https://github.com/stadium-software/simple-tooltip) repos
+
 https://github.com/user-attachments/assets/d1f94cd4-663d-40ef-be09-e68af87b84dd
 
 # Version 
@@ -16,7 +18,7 @@ Current version - Initial 1.0
    1. HoveredElementClass
    2. RevealedElementClass
 3. Drag a JavaScript action into the script
-4. Add the Javascript below into the JavaScript code property
+4. Add the Javascript below unchanged into the JavaScript code property
 ```javascript
 /* Stadium Script v1.0 https://github.com/stadium-software/show-control-on-hover */
 let scope = this;
@@ -54,7 +56,7 @@ function setDMValues(ob, property, value) {
 ## Page.Load Setup
 1. Drag the Global Script called "ShowOnHover" into the Page.Load event handler
 2. Provide the two classes that uniquely identify the two page elements as input parameters to the global script
-   1. HoveredElementClass: the class of the element usesr can hover (e.g. hovered-element)
+   1. HoveredElementClass: the class of the element user can hover (e.g. hovered-element)
    2. RevealedElementClass: the class that the hover action will reveal (e.g. hidden-container)
 
 ## Some CSS suggestions
